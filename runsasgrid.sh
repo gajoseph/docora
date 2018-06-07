@@ -10,6 +10,9 @@ mkdir -p  $ORA_INV
 chmod g+rwx $ORA_INV
 mkdir -p  $ORA_PRO
 chmod g+rwx $ORA_PRO
-	
+
+
+######################### INSTALLING GRID 
+#############################################################################
 mkdir $HOME/tmp
 export TEMP=$HOME/tmp
