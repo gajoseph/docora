@@ -45,9 +45,9 @@ DWNLOC_BASE=/tmp
 DWNLOC_DB=/tmp/oracledb
 DWNLOC_ASM=/tmp/oracleasm
 mkdir -p $DWNLOC_DB $DWNLOC_ASM
-wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_database_1of2.zip --http-user=georgeantonytj@hotmail.com --http-password=Alex20@6 -P $DWNLOC_DB
-wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_database_2of2.zip --http-user=georgeantonytj@hotmail.com --http-password=Alex20@6 -P $DWNLOC_DB
-wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_grid.zip  --http-user=georgeantonytj@hotmail.com --http-password=Alex20@6 -P $DWNLOC_DB
+wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_database_1of2.zip --http-user=georgeantonytj@hotmail.com --http-password=#### -P $DWNLOC_DB
+wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_database_2of2.zip --http-user=georgeantonytj@hotmail.com --http-password=a$$$$@6 -P $DWNLOC_DB
+wget http://download.oracle.com/otn/linux/oracle11g/R2/linux.x64_11gR2_grid.zip  --http-user=georgeantonytj@hotmail.com --http-password=QW@@@@@ -P $DWNLOC_DB
 wget --no-cookies --no-check-certificate  --header "Cookie: oraclelicense=accept-securebackup-cookie"  'http://download.oracle.com/otn_software/asmlib/oracleasmlib-2.0.4-1.el6.x86_64.rpm' -O $DWNLOC_ASM
 wget --no-cookies --no-check-certificate  --header "Cookie: oraclelicense=accept-securebackup-cookie"  'http://oss.oracle.com/projects/oracleasm-support/dist/files/RPMS/rhel6/amd64/2.1.8/oracleasm-support-2.1.8-1.el6.x86_64.rpm' -O $DWNLOC_ASM
 
